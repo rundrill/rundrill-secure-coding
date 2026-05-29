@@ -1,0 +1,34 @@
+{
+  "name": "rundrill-secure-coding",
+  "version": "0.1.0",
+  "description": "Secure-coding coach (OWASP) — find, exploit, and fix the vulnerabilities that ship in real code: injection, XSS, broken auth and access control, weak crypto, SSRF, deserialization, supply-chain and AI risks. Practised by reviewing AI-written code for security bugs, patching vulnerable code, and threat-modeling designs. Drills, progress, and mistake memory, inside your AI agent.",
+  "author": {
+    "name": "RunDrill",
+    "email": "hello@rundrill.com",
+    "url": "https://rundrill.com"
+  },
+  "homepage": "https://rundrill.com",
+  "repository": "https://github.com/rundrill/rundrill-secure-coding",
+  "license": "CC-BY-NC-ND-4.0",
+  "keywords": ["rundrill", "course", "coach", "drills", "secure-coding", "security", "appsec", "owasp", "asvs", "vulnerabilities", "code-review"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "RunDrill Secure Coding",
+    "shortDescription": "Secure-coding coach: review AI code for vulns, fix vulnerable code, threat-model.",
+    "longDescription": "An interactive secure-coding coach (OWASP OCSD / ASVS) for working engineers. Walks the OWASP attack surface front to back across five areas — Foundations (threat modeling, secure design) → Input & Output (SQL injection, command injection, XSS, XXE, SSTI, file upload, path traversal, SSRF, mass assignment) → Identity (password storage, auth bypass, MFA, sessions, CSRF, access control, IDOR, JWT, OAuth) → Data & Crypto (AES, hashing, key management, TLS, HSTS, data protection) → Platform (REST/GraphQL APIs, CORS, security headers, business logic, supply chain, deserialization, secrets, CI/CD, logging, AI security). The risk it targets: AI writes insecure code by default, so the signature drill hands you plausible AI-written code with a planted vulnerability and asks you to find it, name the class, explain the exploit, and fix it — like a security pull-request review; plus fix-the-vuln patching, exploit-then-fix against your own local lab, STRIDE threat models, ASVS checklists, taint tracing, and SAST/SCA triage. Every fix is graded against the relevant ASVS control with mistake memory. Backed by the RunDrill MCP engine with progress tracking.",
+    "developerName": "RunDrill",
+    "category": "Education",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://rundrill.com",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "license": "CC-BY-NC-ND-4.0",
+    "defaultPrompt": [
+      "Start a secure-coding drill session.",
+      "Show me some AI-written code and let me find the vulnerability.",
+      "Show my secure-coding progress."
+    ],
+    "brandColor": "#3B7AE0"
+  }
+}
