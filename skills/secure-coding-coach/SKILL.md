@@ -159,8 +159,7 @@ clear named vulnerability class with `record {action: "misconceptions_add", ...}
 briefly and specifically, never with generic praise: a sharp catch can get a ≤6-word note ("right —
 that's the alg-none bypass"); a miss a ≤4-word ack ("careful — still injectable") — never praise an
 insecure fix, not every item; routine wins are a silent ✓. Then call `practice` again until the plan
-count is reached, re-run `status` (show the banner) and begin the next batch — the user may be mid-chat,
-not a fresh session; close only when they stop, with 2–4 honest lines. On the first drill of the day
+count is reached, begin the next batch WITHOUT reprinting the `status` banner — the banner belongs to the `status` subcommand at session start (or when the user asks), not between drills; close only when they stop, with 2–4 honest lines. On the first drill of the day
 (`is_first_drill_today`), if `profile.habit_anchor` is set, weave it once into the opener.
 
 ### review-ai-code (the signature drill)
