@@ -72,7 +72,7 @@ honour it.
 - `topics` — counts, the top weak topics, and `milestone` (N of M solid at the current area). Show
   "weak" to the user as "to revisit".
 - `banner` — a pre-rendered dashboard (commit grid + per-area progress bars + counters). Print it
-  verbatim inside a fenced code block — no language tag, so it renders in monospace; don't reformat it.
+  verbatim inside a ```` ```bash ```` fenced code block (renders in monospace); don't reformat it.
 - `misconceptions` — open mistakes and the most common named vulnerability classes (e.g.
   *string-concat-into-query*, *alg-none-accepted*).
 - `profile` — `domains`/`interests`/`persona` (anchor scenarios in the learner's stack);
@@ -85,7 +85,7 @@ This course is **single-track** — there's no goal to choose. Everything is the
 
 If invoked with no argument, run `status`, then continue into the next right subcommand.
 
-**status** — call `status`. **Print `banner` verbatim inside one fenced code block — no language tag, so it renders in monospace** (the motivator: a
+**status** — call `status`. **Print `banner` verbatim inside one ```` ```bash ```` fenced code block (renders in monospace)** (the motivator: a
 commit grid + per-area bars; never re-align or swap its glyphs). Below it, in plain words: the area +
 `milestone` (e.g. "3 of 12 input/output topics solid"), the streak (and, if
 `engagement.days_since_last_drill ≥ 2`, one neutral "last drill: N days ago" line — no guilt), and the
