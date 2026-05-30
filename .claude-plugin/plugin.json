@@ -1,7 +1,7 @@
 {
   "name": "rundrill-secure-coding",
   "displayName": "RunDrill Secure Coding",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Secure-coding coach (OWASP) — learn to find, exploit, and fix the vulnerabilities that ship in real code: injection, XSS, broken auth and access control, weak crypto, SSRF, deserialization, supply-chain and AI risks. You practise by reviewing AI-written code for security bugs, patching vulnerable code, and threat-modeling designs — the coach never writes the fix for you — with drills, progress, and mistake memory inside your AI agent.",
   "author": {
     "name": "RunDrill",
