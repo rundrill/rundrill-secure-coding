@@ -1,6 +1,6 @@
 {
   "name": "rundrill-secure-coding",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Secure-coding coach (OWASP) — find, exploit, and fix real vulnerabilities; review AI-written code for security bugs. Drills, progress, and mistake memory, inside your AI agent.",
   "author": {
     "name": "RunDrill",
